@@ -8,5 +8,6 @@ Utilizes following API:
 ## Main Page
 A single page consisting an input section to enter the city.
 Displays an output card 
-![image](https://github.com/junhwanlee2316/Weather_Application/assets/65512890/dfd86078-fe3f-45e4-a048-9680437bf8af)
+
+![image](https://github.com/junhwanlee2316/Weather_Application/assets/65512890/912fe0cb-b23f-4da4-89be-e0bdfc18aed4)
 
