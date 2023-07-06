@@ -1,0 +1,98 @@
+input {
+  padding: 16px;
+  border: 2px #a2a8d3 solid;
+  border-radius: 16px;
+  background-color: #113f67;
+  color: #e7eaf6;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.ResultWrap {
+  margin-top: 60px;
+  font-size: 1.2rem;
+  border: 1px #a2a8d3 solid;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #113f67;
+  color: #e7eaf6;
+  .city {
+    font-size: 24px;
+  }
+  .temperature {
+    font-size: 60px;
+    margin-top: 8px;
+  }
+  .sky {
+    font-size: 20px;
+    text-align: right;
+    margin-top: 8px;
+  }
+}
+
+.button-container {
+  position: relative;
+  margin-top: 1em;
+}
+
+/* CSS */
+.button-80 {
+  background: #e7eaf6;
+  backface-visibility: hidden;
+  border-radius: 0.3rem;
+  border-style: solid;
+  border-width: 0.125rem;
+  border-color: #113f67;
+  box-sizing: border-box;
+  color: #113f67;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  padding: 0.2rem 1rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-80:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.button-80:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(0.125rem);
+}
+
+.button-80:focus {
+  outline: 0 solid transparent;
+}
+
+.button-80:focus:before {
+  content: "";
+  left: calc(-1 * 0.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1 * 0.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.button-80:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.button-80:focus:not(:focus-visible):before {
+  border-width: 0;
+}
+
+.button-80:not(:disabled):active {
+  transform: translateY(0.125rem);
+}
